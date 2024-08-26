@@ -3,6 +3,8 @@ Write a function that accepts an integer n and a string s as parameters, and ret
 */ 
 
 function repeatStr (n, s) {
+ // return s.repeat(n);
+ // another solution
   let temb = s;
   for(let i=1;i<n;i++)
     s+=temb;

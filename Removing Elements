@@ -12,3 +12,9 @@ function removeEveryOther(arr){
   return result;
 }
 
+//another solution
+
+function removeEveryOther(arr){
+  //your code 
+  return arr.filter((x,i)=>i%2===0);
+}

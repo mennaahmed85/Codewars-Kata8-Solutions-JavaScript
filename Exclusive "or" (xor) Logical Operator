@@ -9,3 +9,9 @@ function xor(a, b) {
   // TODO: Program Me
   return ((a===true && b===false)||(b===true&&a===false)) ?true:false;
 }
+
+//another solution 
+function xor(a, b) {
+  // TODO: Program Me
+  return (a===b)?false:true;
+}

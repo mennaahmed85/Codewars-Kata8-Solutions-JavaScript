@@ -18,3 +18,8 @@ function fakeBin(x){
 function fakeBin(x){
   return x.split('').map((x)=>(Number(x)<5)?'0':'1').join('');
 }
+
+// another solution 
+function fakeBin(x){
+  return x.replace(/[1-4]/g,'0').replace(/[5-9]/g,'1');
+}

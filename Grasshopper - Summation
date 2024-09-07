@@ -11,3 +11,16 @@ var summation = function (num) {
      sum+=i;
   return sum;
 }
+
+
+// another solution 
+var summation = function (num) {
+  return Array(num).fill(0).reduce((acc,curr,index)=>acc+index+1,0)
+}
+
+
+// another solution 
+
+var summation = function (num) {
+  return num*(num+1)/2;
+}

@@ -13,5 +13,11 @@ The test cases contain numbers only by mistake.
 
 function correct(string)
 {
+	return string.replace(/0/g,'O').replace(/5/g,'S').replace(/1/g,'I');
+}
+
+// another solution
+function correct(string)
+{
 	return string.split('').map((el)=>el==='5'?'S':el==='0'?'O':el==='1'?'I':el).join('');
 }
